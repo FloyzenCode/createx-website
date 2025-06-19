@@ -5,7 +5,7 @@ Fancybox.bind("[data-fancybox]", {
 const button = document.getElementById('send-btn');
 
 button.addEventListener('click', (e) => {
-    e.preventDefault(); // чтобы не отправлялась форма по умолчанию
+    e.preventDefault();
 
     const forma = {
         firstName: document.getElementById('q-firstname').value,
