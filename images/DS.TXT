@@ -1,0 +1,89 @@
+            <!-- TESTIMONIALS -->
+            <section class="testimonials">
+              <div class="container">
+                <span class="testimonials__label">Testimonials</span>
+                <h2 class="testimonials__title">What our students say</h2>
+                <div class="testimonials__card">
+                  <p class="testimonials__text">
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.”
+                  </p>
+                  <div class="testimonials__user">
+                    <img src="./images/testimonials/1.jpg" alt="Eleanor Pena">
+                    <div class="testimonials__userinfo">
+                      <span class="testimonials__name">Eleanor Pena</span>
+                      <span class="testimonials__position">Position, Course</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+==================================================================================
+
+/* Testimonials Section */
+.testimonials {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.testimonials__label {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #787a80;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.testimonials__title {
+  font-size: 46px;
+  font-weight: 900;
+  color: #1e212c;
+  margin-bottom: 60px;
+}
+
+.testimonials__card {
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0px 20px 60px rgba(30, 33, 44, 0.1);
+  border-radius: 4px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.testimonials__text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #424551;
+  margin-bottom: 24px;
+}
+
+.testimonials__user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.testimonials__user img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.testimonials__userinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials__name {
+  font-weight: 700;
+  color: #1e212c;
+}
+
+.testimonials__position {
+  font-size: 14px;
+  color: #787a80;
+}
